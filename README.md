@@ -1,7 +1,4 @@
-# 
-Here’s a professional and comprehensive text for your README file:
-
-E-Commerce Application
+# E-Commerce Application
 This project is a Spring Boot-based E-Commerce Application designed with a microservices architecture to ensure modularity, scalability, and ease of maintenance. The application is divided into three core services, which communicate seamlessly using Eureka Server for service discovery and Feign Client for inter-service communication.
 
 Key Features
