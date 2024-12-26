@@ -22,6 +22,7 @@ Lombok: Simplified Java code by reducing boilerplate.
 
 Project Structure
 Copy code
+
 ├── User Authentication Service  
 ├── Main Service  
 ├── Notification Service  
