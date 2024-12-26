@@ -21,7 +21,6 @@ MySQL: Database for storing application data.
 Lombok: Simplified Java code by reducing boilerplate.
 
 Project Structure
-Copy code
 
 ├── User Authentication Service  
 ├── Main Service  
