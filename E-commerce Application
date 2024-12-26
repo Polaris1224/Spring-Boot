@@ -1,6 +1,0 @@
-In this project, I will be working on Springboot Project where I will be creating E-commerce appcation.I had divided into 3 components(microservices):
-1. UserService
-2. Main Application
-3. Notification Service
-
-After creating each component, we will be connecting them using Netflix Eureka Service and Feign Client and many more things
