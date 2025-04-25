@@ -1,0 +1,46 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: eureka-server
+  freemarker:
+    cache: false  
+
+eureka:
+  instance:
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 10  
+    lease-expiration-duration-in-seconds: 30  
+    
+  client:
+    register-with-eureka: false  
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8085/eureka
+    
+  server:
+    enable-self-preservation: true  
+    renewal-percent-threshold: 0.49  
+    eviction-interval-timer-in-ms: 5000 
+    response-cache-update-interval-ms: 5000  
+    
+  dashboard:
+    enabled: true
+    path: /
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+# Logging Configuration
+logging:
+  level:
+    com.netflix.eureka: WARN
+    com.netflix.discovery: WARN
+    org.springframework.cloud: INFO
